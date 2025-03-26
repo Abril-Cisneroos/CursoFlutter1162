@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cisneroscurso/mi_widgets/mi_tarjeta.dart';
+//import 'package:cisneroscurso/mi_widgets/mi_tarjeta.dart';
+import 'package:cisneroscurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 void main() => runApp(MiTarjeta());
@@ -18,7 +19,8 @@ class MiTarjeta extends StatelessWidget {
           title: const Text("Flutter Cisneros"),
           centerTitle: false,
         ),
-        body: LaTarjeta(),
+        //body: const LaTarjeta(),
+        body: const DialogoAcercaDe(),
       ),
     );
   }
